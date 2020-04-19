@@ -1,0 +1,6 @@
+Polymorphism Overloading:  Order of Operations
+- What the compilier is looking for...
+	 A.) Checking for exact match.
+	 B.) Conversion - Primitives/Objects that cast themselves into other types (primitive  && object to object)
+	 C.) Boxing && Unboxing - Going from a primitive to an object or vice versa.
+	 D.) Varargs - arguments wrapped into arrays.
