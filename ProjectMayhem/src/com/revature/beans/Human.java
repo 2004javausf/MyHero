@@ -1,6 +1,7 @@
 package com.revature.beans;
+import com.revature.classtypes.Hunt;
 
-public class Human {
+public class Human implements Hunt {
 	
 	/*
 	 * Members of a class - couple of forms.
@@ -51,6 +52,10 @@ public class Human {
 	}
 	public void setWeight(int weight) {
 		this.weight = weight;
+	}
+	
+	public void findPrey() {
+		System.out.println("I'm going to get groceries tonight!");
 	}
 	
 	@Override
