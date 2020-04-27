@@ -2,6 +2,7 @@ package com.revature.collection;
 
 import java.util.LinkedHashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class MySpecialSet {
 	/*
@@ -76,30 +77,30 @@ public class MySpecialSet {
 //		 
 //		 System.out.println(randomSet);
 //		 
-//		 //TreeSet: Will keep value order.
-//		 Set<Object> myFirstTreeSet = new TreeSet<>(); //Created a tree set
-//		 myFirstTreeSet.add(4);
-//		 myFirstTreeSet.add(2);
-//		 myFirstTreeSet.add(1);
-//		 myFirstTreeSet.add(37);
-//		 myFirstTreeSet.add(5);
-//		 myFirstTreeSet.add("apple"); // Uses a comparator so you can't have different types.
-//		 
-//		 System.out.println(myFirstTreeSet);
+		 //TreeSet: Will keep value order.
+		 Set<Object> myFirstTreeSet = new TreeSet<>(); //Created a tree set
+		 myFirstTreeSet.add(4);
+		 myFirstTreeSet.add(2);
+		 myFirstTreeSet.add(1);
+		 myFirstTreeSet.add(37);
+		 myFirstTreeSet.add(5);
+		 myFirstTreeSet.add("apple"); // Uses a comparator so you can't have different types.
+		 
+		 System.out.println(myFirstTreeSet);
 		 
 		 //LinkedHashSet
-		 Set<Integer> myLinkedHashSet = new LinkedHashSet<>();//Preserves insertion order.
-		 
-		 myLinkedHashSet.add(12);
-		 myLinkedHashSet.add(23);
-		 myLinkedHashSet.add(34);
-		 
-		 System.out.println(myLinkedHashSet);
-		 
-		 //This is how you traverse Sets and pull which element you need.
-		 for(Integer num: myLinkedHashSet) {
-			 System.out.println(num);
-		 }
+//		 Set<Integer> myLinkedHashSet = new LinkedHashSet<>();//Preserves insertion order.
+//		 
+//		 myLinkedHashSet.add(12);
+//		 myLinkedHashSet.add(23);
+//		 myLinkedHashSet.add(34);
+//		 
+//		 System.out.println(myLinkedHashSet);
+//		 
+//		 //This is how you traverse Sets and pull which element you need.
+//		 for(Integer num: myLinkedHashSet) {
+//			 System.out.println(num);
+//		 }
 		 
 	 }
 	 

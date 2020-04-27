@@ -50,7 +50,7 @@ public class MyMap {
 		myMap.put(2, "This is the second most important value");
 		System.out.println(myMap);
 		
-		//If you want to iterate through the Hash Map
+		//If you want to iterate through the Hash Map Keys
 		//You have to create a set, then...
 		Set<Integer> myKeySet = myMap.keySet();//<<<
 		
@@ -59,6 +59,7 @@ public class MyMap {
 			System.out.println(myMap.get(i));
 		}
 		
+		//If you want to iterate through the Hash Map K,V
 		Set<Entry<Integer, String>> myPairs = myMap.entrySet();
 		
 		for(Entry<Integer, String> i: myPairs) {

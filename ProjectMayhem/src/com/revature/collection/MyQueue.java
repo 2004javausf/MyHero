@@ -2,8 +2,10 @@ package com.revature.collection;
 
 import java.util.ArrayDeque;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Queue;
+import java.util.Stack;
 
 public class MyQueue {
 	/*
@@ -31,6 +33,7 @@ public class MyQueue {
 		Queue<String> myFirstQueue = new LinkedList<>();
 		Queue<String> linkedList = new PriorityQueue<>();//Preserves insertion order
 		Queue<String> 	deque = new ArrayDeque<>();
+		List<String> myStack = new Stack<>();
 		
 		myFirstQueue.add("Peter Pan");
 		myFirstQueue.add("Captain Hook");

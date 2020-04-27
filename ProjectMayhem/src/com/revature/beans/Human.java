@@ -1,8 +1,15 @@
 package com.revature.beans;
+import java.io.Serializable;
+
 import com.revature.classtypes.Hunt;
 
-public class Human implements Hunt {
+public class Human implements Hunt, Serializable {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 2644110149528507418L;
+
 	/*
 	 * Members of a class - couple of forms.
 	 * Instance variables- property of a specific object (human's name)
